@@ -28,6 +28,10 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+    - name: Maven Package
+      run: mvn -B clean package -DskipTests
+    - name: Maven Install
+      run: mvn -B clean install
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 

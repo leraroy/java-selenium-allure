@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.time.Duration;
 
@@ -35,6 +36,12 @@ public class CommonActions {
                 ChromeOptions options=new ChromeOptions();
                 options.addArguments("--headless");
                 driver=new ChromeDriver(options);
+                break;
+            case "firefoxHeadless":
+                WebDriverManager.firefoxdriver().setup();
+                FirefoxOptions options_f=new FirefoxOptions();
+                options_f.addArguments("--headless");
+                driver=new FirefoxDriver(options_f);
                 break;
             default:
                 System.out.println("Incorrect browser name"+BROWSER);

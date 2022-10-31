@@ -1,7 +1,7 @@
 package common;
 
 public class Config {
-    public static final String BROWSER ="chromeHeadless";
+    public static final String BROWSER ="firefoxHeadless";
     public static final int IMPLICITLY_WAIT=5;
     public static final int EXPLICITLY_WAIT=10;
 

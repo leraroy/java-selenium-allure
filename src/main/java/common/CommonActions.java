@@ -17,8 +17,8 @@ public class CommonActions {
 
         switch (BROWSER){
             case "chrome":
-                WebDriverManager.chromedriver().setup();
-                //System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+                //WebDriverManager.chromedriver().setup();
+                System.setProperty("webdriver.chrome.driver", "D:\\IdeaProjects\\Mangento.softwaretestingboard\\src\\main\\resources\\chromedriver");
                 driver=new ChromeDriver();
                 break;
             case "firefox":

@@ -1,6 +1,6 @@
 # java-selenium-allure
 
-Tests with Selenium WebDriver and Allure framework for https://magento.softwaretestingboard.com/ calculator
+Tests with Selenium WebDriver and Allure framework for [Magento softwaretestingboard](https://magento.softwaretestingboard.com/) website
 
 ## Setup
 
@@ -12,13 +12,13 @@ Tests with Selenium WebDriver and Allure framework for https://magento.softwaret
 - Go to the terminal and:
 
 ### Execute command to run tests
-...
+```
 mvn clean test 
-...
+```
 
 ### Execute command to get report allure
-...
+```
 allure:serve
-...
+```
 
 

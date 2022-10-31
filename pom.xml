@@ -33,7 +33,7 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.3.0</version>
         </dependency>
-       <dependency>
+        <dependency>
             <groupId>com.tngtech.java</groupId>
             <artifactId>junit-dataprovider</artifactId>
             <version>1.13.1</version>
@@ -61,9 +61,7 @@
             <version>2.2</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
